@@ -26,5 +26,10 @@ Then activate the environment.
 Then run the Python server.
 
 ```
-flask --app main run
+flask --app app run
+```
+or
+
+```
+gunicorn app:app
 ```
